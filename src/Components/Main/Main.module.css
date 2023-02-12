@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.Main {
+    background-image: url('./../../Assets/Group1.svg');
+    min-width: calc(100vw - 100%);
+    /* width: 100vw; */
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.subMain {
+    width: 902px;
+    padding-top: 110px;
+    padding-left: 73px;
+}
+
+.upload {
+    padding-top: 82px;
+}
+
+.upload p {
+    font-size: 30px;
+    font-weight: medium;
+    padding-left: 220px;
+}
+
+.file {
+    position: absolute;
+    width: 488px;
+    height: 207px;
+    border-radius: 35px;
+    background: rgba(45, 137, 255, 0.11);
+    backdrop-filter: blur(5px);
+    z-index: 100000 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one {
+    position: absolute;
+    z-index: 20 !important;
+    right: -8%;
+    top: -12%;
+}
+
+.two {
+    position: absolute;
+    z-index: 20 !important;
+    bottom: -10%;
+    left: -10%;
+}
+
+.all {
+    /* width: 200px;
+    height: 200px; */
+    position: relative;
+    width: 488px;
+    height: 207px;
+    margin-left: 130px;
+}
+
+.file input {
+    display: none;
+    /* visibility: hidden; */
+}
+
+.Main h3 {
+    font-size: 48px;
+    line-height: 48px;
+    color: #2D89FF;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.Main span {
+    color: #2D89FF;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.Main h1 {
+    font-size: 80px;
+    font-weight: 700;
+}
